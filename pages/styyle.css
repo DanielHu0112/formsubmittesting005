@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/eldenring.jpg" );
+    background-size: cover;
+}
+
+.main-content {
+    text-align: center;
+    box-shadow: 0 0 10px #00000070; 
+}
+
+.top-section {
+    /*background-color: #575fcf; */
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    padding: 50px 0 50px 0;
+    color: black;
+}
+
+
+
+.top-section img {
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+.top-section p {
+    margin: 5px 0 5px 0;
+}
+
+.top-section .name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.top-section .email, .mobile {
+    font-size: 18px;
+}
+
+.middle-section, .bottom-section {
+    background-color: #ffffff;
+}
+
+.middle-section {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+
+.social i {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(5, 51, 73);
+    border-radius: 90%;
+    line-height: 200%;
+    margin: 15px;
+    
+}
+
+.bottom-section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-section span {
+    display: block;
+}
+
+.border {
+    width: 1px;
+    height: 40px;
+    background-color: #d3dae2;
+    margin-left: 50px;
+}
